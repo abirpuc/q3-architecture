@@ -39,6 +39,16 @@ button{
     background: var(--primary-color)
 }
 
+.btn-common{
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 7px;
+    font-size: 1.4rem;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 header{
     padding: 20px 200px;
     background: var(--bg-primary-color);
@@ -67,4 +77,32 @@ header{
     font-size: 1.2rem;
     margin-left: 35px;
     color: var(--secondary-text-color);
+}
+
+.banner-content{
+    margin: 50px auto;
+    text-align: center;
+    width: 40%;
+}
+
+.banner-content h1{
+    font-size: 3rem;
+    line-height: 1.3;
+}
+
+.banner-content p{
+    color: var(--secondary-text-color);
+    line-height: 1.5;
+}
+
+.banner-btn{
+    margin: 20px 0;
+}
+.banner-img{
+    width: 90%;
+    margin: 20px auto;
+}
+
+.banner-img img{
+    width: 100%;
 }

@@ -1,15 +1,21 @@
 @media screen and (max-width: 480px) {
+    .btn-common {
+        font-size: 1rem;
+    }
+
     header {
         padding: 10px;
     }
 
     .logo {
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
-    .nav-links{
+
+    .nav-links {
         display: none;
     }
-    .responsive-menu{
+
+    .responsive-menu {
         display: block;
         padding: 5px 10px;
         border: none;
@@ -17,19 +23,43 @@
         border-radius: 5px;
         cursor: pointer;
     }
+
+    .banner-content {
+        width: 98%;
+    }
+
+    .banner-content h1 {
+        font-size: 2rem;
+    }
+
+    .banner-img {
+        width: 90%;
+    }
 }
 
 @media screen and (min-width:481px) and (max-width: 767px) {
-     header {
+    header {
         padding: 10px;
     }
 
     .logo {
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
 
-    .nav-links li a{
+    .nav-links li a {
         margin-left: 20px;
+    }
+
+    .banner-content {
+        width: 70%;
+    }
+
+    .banner-content h1 {
+        font-size: 2rem;
+    }
+
+    .banner-img {
+        width: 90%;
     }
 }
 
@@ -37,10 +67,24 @@
     header {
         padding: 30px 80px;
     }
-    .logo{
+
+    .logo {
         font-size: 2rem;
     }
-    .nav-links li a{
+
+    .nav-links li a {
         margin-left: 30px;
+    }
+
+    .banner-content {
+        width: 50%;
+    }
+
+    .banner-content h1 {
+        font-size: 2.5rem;
+    }
+
+    .banner-img {
+        width: 90%;
     }
 }
