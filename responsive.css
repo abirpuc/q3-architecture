@@ -171,6 +171,9 @@
 .sponsor-content{
     width: 100%;
 }
+footer{
+    width: 96%
+}
 }
 
 @media screen and (min-width:481px) and (max-width: 767px) {

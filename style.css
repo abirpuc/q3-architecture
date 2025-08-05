@@ -301,3 +301,14 @@ header{
 .sponsor-logo img{
     filter: grayscale(100%);
 }
+
+footer{
+    width: 70%;
+    margin: 200px auto;
+    background: var(--bg-primary-color);
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--secondary-text-color);
+}
