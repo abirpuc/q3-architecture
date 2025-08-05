@@ -268,3 +268,36 @@ header{
     font-size: 1.3rem;
     font-weight: 500;
 }
+
+#sponsor-container{
+    width: 80%;
+    margin: 100px auto;
+}
+
+.sponsor-content{
+    width: 40%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.sponsor-content h1{
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.sponsor-content p{
+    color: var(--secondary-text-color);
+    line-height: 1.3;
+}
+
+.sponsor-logo{
+    margin: 100px auto;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.sponsor-logo img{
+    filter: grayscale(100%);
+}
