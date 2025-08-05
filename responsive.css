@@ -153,6 +153,18 @@
 .experiences p{
     font-size: 1.3rem;
 }
+#facts-container{
+    margin-top: 40px;
+    width: 98%;
+    padding: 20px;
+}
+.facts-content{
+    width:90%;
+}
+.facts{
+    flex-direction: column;
+    gap: 20px;
+}
 }
 
 @media screen and (min-width:481px) and (max-width: 767px) {
@@ -297,6 +309,18 @@
 .experiences p{
     font-size: 1.3rem;
 }
+#facts-container{
+    margin-top: 40px;
+    width: 98%;
+    padding: 20px;
+}
+.facts-content{
+    width:90%;
+}
+.facts{
+    flex-direction: column;
+    gap: 20px;
+}
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
@@ -439,5 +463,17 @@
 }
 .experiences p{
     font-size: 1.3rem;
+}
+#facts-container{
+    margin-top: 40px;
+    width: 90%;
+    padding: 20px;
+}
+.facts-content{
+    width:60%;
+}
+.facts{
+    flex-wrap: wrap;
+    gap: 20px;
 }
 }
